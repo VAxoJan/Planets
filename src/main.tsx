@@ -1,15 +1,43 @@
 import ReactDOM from 'react-dom/client'
 import './index.css'
 import {createBrowserRouter,RouterProvider,} from "react-router-dom";
-import App from './App';
+import { Earth, Mercury, Venus } from './pages';
+import Header from './components/Header/Header';
+
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App/>,
+    element:
+     <>
+     <Header/>
+    </>,
   },
-  {path: "/planets",
-  element: <h1>hello from mars</h1>
+  {
+    path: "/mercury",
+    element: 
+    <>
+    <Header/>
+    <Mercury/>
+    </>
+    ,
+  },
+  {
+    path: "/venus",
+    element: 
+    <>
+    <Header/>
+    <Venus/>
+    </>,
+  },
+  {
+    path: "/earth",
+    element: 
+    <>
+    <Header/>
+    <Earth/>
+    </>
+    ,
   },
 ]);
 
