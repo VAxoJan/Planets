@@ -28,8 +28,10 @@ const Mercury: React.FC = () => {
   }, []);
 
   return (
+    <>
     <div className="flex w-[58%] h-[600px] m-auto gap-4 my-[100px] border border-red-600">
       <div className="flex justify-between">
+
       <div className="flex justify-center-full">
         <img className="w-[52%]" src={planetImg} />
       </div>
@@ -62,9 +64,11 @@ const Mercury: React.FC = () => {
           </button>
         </div>
       </div>
-
       </div>
     </div>
+    <div className="flex text-white w-full justify-center">q2313</div>    
+    </>
+
   );
 };
 
