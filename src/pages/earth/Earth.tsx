@@ -1,7 +1,7 @@
 const Earth = () => {
   return (
-    <div>Earth</div>
+    <div className="text-white">Earth</div>
   )
 }
 
-export default Earth
+export default Earth;

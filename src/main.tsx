@@ -39,6 +39,14 @@ const router = createBrowserRouter([
     </>
     ,
   },
+  {
+    path: "*",
+    element: 
+    <>
+    <h1 className='w-auto text-red-600 flex justify-center text-[35px]'>Page Not Found!!</h1>
+    </>
+    ,
+  },
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
