@@ -1,8 +1,7 @@
-import { useEffect, useState } from "react";
+import { useEffect} from "react";
 import { Link } from "react-router-dom";
 
 const Header:any = () => {
-
   useEffect(() => {
     const fetchData = async () => {
       await fetch("/src/components/Header/data.json")
@@ -11,7 +10,8 @@ const Header:any = () => {
           console.log(json);
         })
         .catch((error) => {
-          console.error(error);
+          console.log(error);
+          
         });
     };
 
@@ -19,31 +19,31 @@ const Header:any = () => {
   }, []);
 
   return (
-    <div className="flex h-[85px] bg-[#070724]  text-white m-auto">
+    <div className="flex h-[85px] bg-[#070724] text-white m-auto">
       <header className="flex list-none gap-10 w-full justify-end px-10 items-center font-headerFont">
         <li>
-          <Link to="/Mercury">MERCURY</Link>
+          <Link to="/mercury">MERCURY</Link>
         </li>
         <li>
-          <Link to="/Venus">VENUS</Link>
+          <Link to="/venus">VENUS</Link>
         </li>
         <li>
-          <Link to="/Earth">EARTH</Link>
+          <Link to="/earth">EARTH</Link>
         </li>
         <li>
-          <Link to="/Mars">MARS</Link>
+          <Link to="/mars">MARS</Link>
         </li>
         <li>
-          <Link to="/Jupiter">JUPITER</Link>
+          <Link to="/jupiter">JUPITER</Link>
         </li>
         <li>
-          <Link to="/Saturn">SATURN</Link>
+          <Link to="/saturn">SATURN</Link>
         </li>
         <li>
-          <Link to="/Uranus">URANUS</Link>
+          <Link to="/uranus">URANUS</Link>
         </li>
         <li>
-          <Link to="/Neptune">NEPTUNE</Link>
+          <Link to="/neptune">NEPTUNE</Link>
         </li>
       </header>
     </div>

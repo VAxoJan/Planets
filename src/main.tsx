@@ -1,8 +1,9 @@
 import ReactDOM from 'react-dom/client'
 import './index.css'
 import {createBrowserRouter,RouterProvider,} from "react-router-dom";
-import { Earth, Mercury, Venus } from './pages';
 import Header from './components/Header/Header';
+import App from './App';
+import { Earth, Jupiter, Mars, Mercury, Venus } from './pages/local';
 
 
 const router = createBrowserRouter([
@@ -10,7 +11,7 @@ const router = createBrowserRouter([
     path: "/",
     element:
      <>
-     <Header/>
+     <App/>
     </>,
   },
   {
@@ -33,10 +34,55 @@ const router = createBrowserRouter([
   {
     path: "/earth",
     element: 
-    <>
+    <App>
     <Header/>
     <Earth/>
-    </>
+    </App>
+    ,
+  },
+  {
+    path: "/mars",
+    element: 
+    <App>
+    <Header/>
+    <Mars/>
+    </App>
+    ,
+  },
+  {
+    path: "/jupiter",
+    element: 
+    <App>
+    <Header/>
+    <Jupiter/>
+    </App>
+    ,
+  },
+  {
+    path: "/earth",
+    element: 
+    <App>
+    <Header/>
+    <Earth/>
+    </App>
+    ,
+  },
+  {
+    path: "/earth",
+    element: 
+    <App>
+    <Header/>
+    <Earth/>
+    </App>
+    ,
+  },
+  {
+    path: "/earth",
+    element: 
+    <App>
+    <Header/>
+    <Earth/>
+    </App>
     ,
   },
   {

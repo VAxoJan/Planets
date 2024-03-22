@@ -1,6 +1,11 @@
-const App = () => {
+import Header from "./components/Header/Header";
+
+const App:any = () => {
   return (
-    <div>Hello Planets Project</div>
+    <div className="border border-black">
+      <Header/>
+      <hr />
+    </div>
   )
 }
 
