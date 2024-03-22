@@ -1,25 +1,14 @@
-import { useEffect} from "react";
 import { Link } from "react-router-dom";
 
 const Header:any = () => {
-  useEffect(() => {
-    const fetchData = async () => {
-      await fetch("/src/components/Header/data.json")
-        .then((res) => res.json())
-        .then((json) => {
-          console.log(json);
-        })
-        .catch((error) => {
-          console.log(error);
-          
-        });
-    };
-
-    fetchData();
-  }, []);
-
   return (
-    <div className="flex h-[85px] bg-[#070724] text-white m-auto">
+    <div className="flex h-[85px] bg-[#070724] text-white m-auto border-y">
+      <div className="flex px-[32px] items-center w-auto gap-2">
+        <h1 className="font-antonio text-[28px]">
+          THE
+          </h1>
+          <h1 className="font-antonio text-[28px]">PLANETS</h1>
+      </div>
       <header className="flex list-none gap-10 w-full justify-end px-10 items-center font-headerFont">
         <li>
           <Link to="/mercury">MERCURY</Link>

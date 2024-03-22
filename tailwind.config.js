@@ -6,7 +6,8 @@ export default {
   ],  theme: {
     extend: {},
     fontFamily:{
-      headerFont: ["League Spartan", "sans-serif"]
+      headerFont: ["League Spartan", "sans-serif"],
+      antonio: ["Antonio", "sans-serif"],
     },
   },
   plugins: [],
