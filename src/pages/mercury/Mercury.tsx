@@ -29,11 +29,10 @@ const Mercury: React.FC = () => {
 
   return (
     <>
-    <div className="flex w-[58%] h-[600px] m-auto gap-4 my-[100px] border border-red-600">
+    <div className="flex w-[58%] h-fit m-auto gap-4 my-[80px]">
       <div className="flex justify-between">
-
-      <div className="flex justify-center-full">
-        <img className="w-[52%]" src={planetImg} />
+      <div className="flex justify-center">
+        <img className="w-[80%]" src={planetImg} />
       </div>
       <div className="w-[50%]">
         <h1 className="font-antonio text-white text-center text-7xl py-8">MERCURY</h1>
@@ -66,7 +65,24 @@ const Mercury: React.FC = () => {
       </div>
       </div>
     </div>
-    <div className="flex text-white w-full justify-center">q2313</div>    
+    <div className="flex text-white w-full justify-center gap-x-7">
+      <div className="border w-[255px] h-32">
+        <p className="text-xs font-headerFont opacity-[50%] py-5 px-6">ROTATION TIME</p>
+        <h1 className="text-white font-antonio text-[35px] px-5">58.6 Days</h1>
+      </div>
+      <div className="border w-[255px] h-32">
+        <p className="text-xs font-headerFont opacity-[50%] py-5 px-6">REVOLUTION TIME</p>
+        <h1 className="text-white font-antonio text-[35px] px-5">87.97 DAYS</h1>
+      </div>
+      <div className="border w-[255px] h-32">
+        <p className="text-xs font-headerFont opacity-[50%] py-5 px-6">radius</p>
+        <h1 className="text-white font-antonio text-[35px] px-5">2,439.7 KM</h1>
+      </div>
+      <div className="border w-[255px] h-32">
+        <p className="text-xs font-headerFont opacity-[50%] py-5 px-6">AVERAGE TEMP.</p>
+        <h1 className="text-white font-antonio text-[35px] px-5">430 C</h1>
+      </div>
+      </div>    
     </>
 
   );

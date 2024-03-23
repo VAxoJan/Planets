@@ -9,7 +9,7 @@ const Header:any = () => {
           </h1>
           <h1 className="font-antonio text-[28px]">PLANETS</h1>
       </div>
-      <header className="flex list-none gap-10 w-full justify-end px-10 items-center font-headerFont">
+      <header className="flex list-none gap-14 w-full justify-end px-10 items-center font-headerFont">
         <li>
           <Link to="/mercury">MERCURY</Link>
         </li>
