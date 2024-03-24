@@ -1,7 +1,7 @@
 import MainPlanets from "../mainPlanets/MainPlanets";
-import venusLogo from "../../components/Images/2.svg"
+import venusLogo from "../../components/Images/venusImg/venusLast.png"
 
-const Venus = () => {
+const VenusLast = () => {
   return (
     <MainPlanets
       PlanetName={"VENUS"}
@@ -14,11 +14,11 @@ const Venus = () => {
       RevolutionTIme={"224.7 DAYS"}
       Radius={"6.051 KM"}
       Average={"471 C"}
-      className="w-56"
-      surfaceLink="/venus-surface-geology"
+      overViewLink="/venus"
+      className="absolute w-56 top-[300px] left-[400px]"
       link="/venus-interval-structure"
     />
   );
 };
 
-export default Venus;
+export default VenusLast;

@@ -1,12 +1,6 @@
 import { Link } from "react-router-dom";
 import shape from "../../components/Images/Shape.svg";
 
-// interface IDataItem {
-//   id: number;
-//   name: string;
-//   content: any;
-// }
-
 interface planets {
   PlanetName: string;
   PlanetAbout: string | number;
@@ -36,24 +30,6 @@ const Mercury: React.FC<planets> = ({
   surfaceLink,
   className,
 }) => {
-  // const [data, setData] = useState<IDataItem[] | null>(null);
-
-  // useEffect(() => {
-  //   const fetchData = async () => {
-  //     try {
-  //       const response = await fetch("/src/components/Header/data.json");
-  //       if (!response.ok) {
-  //         throw new Error("error");
-  //       }
-  //       const jsonData = await response.json();
-  //       setData(jsonData);
-  //     } catch (error) {
-  //       console.error(error);
-  //     }
-  //   };
-
-  //   fetchData();
-  // }, []);
 
   return (
     <>

@@ -1,6 +1,6 @@
 import MainPlanets from "../mainPlanets/MainPlanets";
-import eartLogo from '../../components/Images/3.svg';
-const Earth = () => {
+import eartLogo from '../../components/Images/earth/earthLast.png';
+const EarthLast = () => {
   return (
     <MainPlanets
       PlanetName={"EARTH"}
@@ -13,11 +13,11 @@ const Earth = () => {
       RevolutionTIme={"365.26 DAYS"}
       Radius={"6,371 KM"}
       Average={"16 C"}
-      className="w-56"
+      className="absolute w-56 left-[400px] top-[300px]"
+      overViewLink="/earth"
       link="/earth-interval-structure"
-      surfaceLink="/earth-surface-geology"
     />
   );
 };
 
-export default Earth;
+export default EarthLast;

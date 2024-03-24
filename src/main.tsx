@@ -6,6 +6,10 @@ import { Earth, Jupiter, Mars, Mercury, Neptune, Saturn, Uranus, Venus } from ".
 import mercuryLogo from './components/Images/mercury.svg'
 import mercuryMiddle from './components/Images/mercury/mercuryMiddle.png';
 import mercuryLst from './components/Images/mercury/mercuryLast.png';
+import VenusMiddle from "./pages/venus/VenusMiddle";
+import VenusLast from "./pages/venus/VenusLast";
+import EarthMiddle from "./pages/earth/EarthMiddle";
+import EarthLast from "./pages/earth/EarthLast";
 
 const router = createBrowserRouter([
   {
@@ -20,7 +24,7 @@ const router = createBrowserRouter([
     path: "/mercury",
     element: (
       <>
-        <Header />
+        <Header />venusLogo
         <Mercury
           PlanetName={"Mercury"}
           PlanetAbout={"Mercury is the smallest planet in the Solar System and the closest to the Sun. Its orbit around the Sun takes 87.97 Earth days, the shortest of all the Sun's planets. Mercury is one of four terrestrial planets in the Solar System, and is a rocky body like Earth."}
@@ -89,11 +93,20 @@ const router = createBrowserRouter([
     ),
   },
   {
-    path: "/venus/venus-interval-structure",
+    path: "venus-interval-structure",
     element: (
       <>
         <Header />
-        <Venus />
+        <VenusMiddle/>
+      </>
+    ),
+  },
+  {
+    path: "venus-surface-geology",
+    element: (
+      <>
+        <Header />
+        <VenusLast/>
       </>
     ),
   },
@@ -103,6 +116,24 @@ const router = createBrowserRouter([
       <>
         <Header />
         <Earth />
+      </>
+    ),
+  },
+  {
+    path: "/earth-interval-structure",
+    element: (
+      <>
+        <Header />
+        <EarthMiddle/>
+      </>
+    ),
+  },
+  {
+    path: "/earth-surface-geology",
+    element: (
+      <>
+        <Header />
+        <EarthLast/>
       </>
     ),
   },
