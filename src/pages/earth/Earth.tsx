@@ -13,7 +13,7 @@ const Earth = () => {
       RevolutionTIme={"365.26 DAYS"}
       Radius={"6,371 KM"}
       Average={"16 C"}
-      className="w-56"
+      className="absolute w-56 left-[400px] top-[300px]"
       link="/earth-interval-structure"
       surfaceLink="/earth-surface-geology"
     />

@@ -14,6 +14,7 @@ const Saturn = () => {
       RevolutionTIme={"29.46 YEARS"}
       Radius={"58.232 KM"}
       Average={"-138 C"}
+      className="w-56"
     />
   );
 };

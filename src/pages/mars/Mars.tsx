@@ -14,6 +14,9 @@ const Mars = () => {
       RevolutionTIme={"1.88 YEARS"}
       Radius={"3,389.5 KM"}
       Average={"-28 C"}
+      className="h-fit py py-[120px] w-56"
+      link="/mars-interval-structure"
+      surfaceLink="/mars-surface-geology"
     />
   );
 };

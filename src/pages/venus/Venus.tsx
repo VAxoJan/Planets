@@ -14,7 +14,7 @@ const Venus = () => {
       RevolutionTIme={"224.7 DAYS"}
       Radius={"6.051 KM"}
       Average={"471 C"}
-      className="w-56"
+      className="absolute w-56 top-[300px] left-[400px]"
       surfaceLink="/venus-surface-geology"
       link="/venus-interval-structure"
     />

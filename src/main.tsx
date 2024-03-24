@@ -10,6 +10,9 @@ import VenusMiddle from "./pages/venus/VenusMiddle";
 import VenusLast from "./pages/venus/VenusLast";
 import EarthMiddle from "./pages/earth/EarthMiddle";
 import EarthLast from "./pages/earth/EarthLast";
+import MarsMiddle from "./pages/mars/MarsMiddle";
+import MarsLast from "./pages/mars/MarsLast";
+
 
 const router = createBrowserRouter([
   {
@@ -36,7 +39,7 @@ const router = createBrowserRouter([
           Average={"430 C"}
           link="/mercury/internal-structure-mercury"
           surfaceLink="/mercury/surface-geology"
-          className="w-56"
+          className="h-fit py py-[120px] w-56"
         />
       </>
     ),
@@ -143,6 +146,24 @@ const router = createBrowserRouter([
       <>
         <Header />
         <Mars />
+      </>
+    ),
+  },
+  {
+    path: "/mars-interval-structure",
+    element: (
+      <>
+        <Header />
+        <MarsMiddle />
+      </>
+    ),
+  },
+  {
+    path: "/mars-surface-geology",
+    element: (
+      <>
+        <Header />
+        <MarsLast />
       </>
     ),
   },
