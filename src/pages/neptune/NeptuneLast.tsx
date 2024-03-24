@@ -1,12 +1,12 @@
 import MainPlanets from "../mainPlanets/MainPlanets";
-import neptuneLogo from "../../components/Images/8.svg";
+import neptuneLogo from "../../components/Images/neptune/neptuneLast.png";
 
-const Neptune = () => {
+const NeptuneLast = () => {
   return (
     <MainPlanets
       PlanetName={"NEPTUNE"}
       PlanetAbout={
-        "Neptune is the eighth and farthest-known Solar planet from the Sun. In the Solar System, it is the fourth-largest planet by diameter, the third-most-massive planet, and the densest giant planet. It is 17 times the mass of Earth, more massive than its near-twin Uranus."
+        "Neptune's atmosphere is 80% hydrogen and 19% helium. A trace amount of methane is also present. Prominent absorption bands of methane exist at wavelengths above 600 nm, in the red and infrared portion of the spectrum."
       }
       PlanetImg={neptuneLogo}
       PlanetWikipedia={undefined}
@@ -15,10 +15,10 @@ const Neptune = () => {
       Radius={"24,622 KM"}
       Average={"-201 "}
       className="absolute w-56 left-[400px] top-[300px]"
+      overViewLink="/neptune"
       link="/neptune-interval-structure"
-      surfaceLink="/neptune-surface-geology"
     />
   );
 };
 
-export default Neptune;
+export default NeptuneLast;

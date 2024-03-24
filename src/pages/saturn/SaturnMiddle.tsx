@@ -1,12 +1,12 @@
 import MainPlanets from "../mainPlanets/MainPlanets";
-import saturnLogo from '../../components/Images/6.svg';
+import saturnLogo from '../../components/Images/saturn/saturnMiddle.png';
 
-const Saturn = () => {
+const SaturnMiddle = () => {
   return (
     <MainPlanets
       PlanetName={"SATURN"}
       PlanetAbout={
-        "Saturn is the sixth planet from the Sun and the second-largest in the Solar System, after Jupiter. It is a gas giant with an average radius of about nine and a half times that of Earth. It only has one-eighth the average density of Earth."
+        "Despite consisting mostly of hydrogen and helium, most of Saturn's mass is not in the gas phase, because hydrogen becomes a non-ideal liquid when the density is above 0.01 g/cm3, which is reached at a radius containing 99.9% of Saturn's mass."
       }
       PlanetImg={saturnLogo}
       PlanetWikipedia={undefined}
@@ -15,10 +15,10 @@ const Saturn = () => {
       Radius={"58.232 KM"}
       Average={"-138 C"}
       className="absolute w-56 left-[400px] top-[300px]"
-      link="/saturn-interval-structure"
+      overViewLink="/saturn"
       surfaceLink="/saturn-surface-geology"
     />
   );
 };
 
-export default Saturn;
+export default SaturnMiddle;

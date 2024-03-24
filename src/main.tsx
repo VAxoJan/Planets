@@ -12,6 +12,14 @@ import EarthMiddle from "./pages/earth/EarthMiddle";
 import EarthLast from "./pages/earth/EarthLast";
 import MarsMiddle from "./pages/mars/MarsMiddle";
 import MarsLast from "./pages/mars/MarsLast";
+import JupiterLast from "./pages/jupiter/JupiterLats";
+import JupiterMiddle from "./pages/jupiter/JupiterMiddle";
+import SaturnMiddle from "./pages/saturn/SaturnMiddle";
+import SaturnLast from "./pages/saturn/SaturnLast";
+import UranusLast from "./pages/uranus/UranusLast";
+import UranusMiddle from "./pages/uranus/UranusMiddle";
+import NeptuneMiddle from "./pages/neptune/NeptuneMiddle";
+import NeptuneLast from "./pages/neptune/NeptuneLast";
 
 
 const router = createBrowserRouter([
@@ -51,7 +59,7 @@ const router = createBrowserRouter([
         <Header />
         <Mercury
           PlanetName={"Mercury"}
-          PlanetAbout={"Mercury is the smallest planet in the Solar System and the closest to the Sun. Its orbit around the Sun takes 87.97 Earth days, the shortest of all the Sun's planets. Mercury is one of four terrestrial planets in the Solar System, and is a rocky body like Earth."}
+          PlanetAbout={"Mercury appears to have a solid silicate crust and mantle overlying a solid, iron sulfide outer core layer, a deeper liquid core layer, and a solid inner core. The planet's density is the second highest in the Solar System at 5.427 g/cm3 , only slightly less than Earth's density."}
           PlanetImg={mercuryMiddle}
           PlanetWikipedia={undefined}
           RotationTime={"58.6 DAYS"}
@@ -72,7 +80,7 @@ const router = createBrowserRouter([
         <Header />
         <Mercury
           PlanetName={"Mercury"}
-          PlanetAbout={"Mercury is the smallest planet in the Solar System and the closest to the Sun. Its orbit around the Sun takes 87.97 Earth days, the shortest of all the Sun's planets. Mercury is one of four terrestrial planets in the Solar System, and is a rocky body like Earth."}
+          PlanetAbout={"Mercury appears to have a solid silicate crust and mantle overlying a solid, iron sulfide outer core layer, a deeper liquid core layer, and a solid inner core. The planet's density is the second highest in the Solar System at 5.427 g/cm3 , only slightly less than Earth's density."}
           PlanetImg={mercuryLst}
           PlanetWikipedia={undefined}
           RotationTime={"58.6 DAYS"}
@@ -177,11 +185,47 @@ const router = createBrowserRouter([
     ),
   },
   {
+    path: "/jupiter-interval-structure",
+    element: (
+      <>
+        <Header />
+        <JupiterMiddle />
+      </>
+    ),
+  },
+  {
+    path: "/jupiter-surface-geology",
+    element: (
+      <>
+        <Header />
+        <JupiterLast />
+      </>
+    ),
+  },
+  {
     path: "/saturn",
     element: (
       <>
         <Header />
         <Saturn />
+      </>
+    ),
+  },
+  {
+    path: "/saturn-interval-structure",
+    element: (
+      <>
+        <Header />
+        <SaturnMiddle />
+      </>
+    ),
+  },
+  {
+    path: "/saturn-surface-geology",
+    element: (
+      <>
+        <Header />
+        <SaturnLast />
       </>
     ),
   },
@@ -195,11 +239,47 @@ const router = createBrowserRouter([
     ),
   },
   {
+    path: "/uranus-interval-structure",
+    element: (
+      <>
+        <Header />
+        <UranusMiddle />
+      </>
+    ),
+  },
+  {
+    path: "/uranus-surface-geology",
+    element: (
+      <>
+        <Header />
+        <UranusLast />
+      </>
+    ),
+  },
+  {
     path: "/neptune",
     element: (
       <>
         <Header />
         <Neptune />
+      </>
+    ),
+  },
+  {
+    path: "/neptune-interval-structure",
+    element: (
+      <>
+        <Header />
+        <NeptuneMiddle />
+      </>
+    ),
+  },
+  {
+    path: "/neptune-surface-geology",
+    element: (
+      <>
+        <Header />
+        <NeptuneLast />
       </>
     ),
   },

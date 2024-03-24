@@ -33,12 +33,12 @@ const Mercury: React.FC<planets> = ({
 
   return (
     <>
-      <div className="flex w-[58%] h-fit m-auto gap-4 my-[80px]">
+      <div className="flex w-[58%] h-fit m-auto gap-4 my-[70px]">
         <div className="flex justify-between">
           <div className="flex justify-center">
             <img className={className} src={PlanetImg} />
           </div>
-          <div className="w-[50%]">
+          <div className="w-[55%]">
             <h1 className="font-antonio text-white text-center text-7xl py-8">
               {PlanetName}
             </h1>

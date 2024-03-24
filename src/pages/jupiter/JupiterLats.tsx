@@ -1,12 +1,12 @@
 import MainPlanets from "../mainPlanets/MainPlanets";
-import jupiterLogo from '../../components/Images/5.svg';
+import jupiterLogo from '../../components/Images/jupiter/jupiterLast.png';
 
-const Jupiter = () => {
+const JupiterLast = () => {
   return (
     <MainPlanets
       PlanetName={"JUPITER"}
       PlanetAbout={
-        "Jupiter is the fifth planet from the Sun and the largest in the Solar System. It is a gas giant with a mass two and a half times that of all the other planets in the Solar System combined, but less than one-thousandth the mass of the Sun."
+        "The best known feature of Jupiter is the Great Red Spot, a persistent anticyclonic storm located 22° south of the equator. It is known to have existed since at least 1831, and possibly since 1665."
       }
       PlanetImg={jupiterLogo}
       PlanetWikipedia={undefined}
@@ -16,9 +16,9 @@ const Jupiter = () => {
       Average={"-108 C"}
       className="absolute w-56 left-[400px] top-[300px]"
       link="/jupiter-interval-structure"
-      surfaceLink="/jupiter-surface-geology"
+      overViewLink="/jupiter"
     />
   );
 };
 
-export default Jupiter;
+export default JupiterLast;

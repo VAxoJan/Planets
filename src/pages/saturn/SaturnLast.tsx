@@ -1,12 +1,12 @@
 import MainPlanets from "../mainPlanets/MainPlanets";
-import saturnLogo from '../../components/Images/6.svg';
+import saturnLogo from '../../components/Images/saturn/saturnLast.png';
 
-const Saturn = () => {
+const SaturnLast = () => {
   return (
     <MainPlanets
       PlanetName={"SATURN"}
       PlanetAbout={
-        "Saturn is the sixth planet from the Sun and the second-largest in the Solar System, after Jupiter. It is a gas giant with an average radius of about nine and a half times that of Earth. It only has one-eighth the average density of Earth."
+        "The outer atmosphere of Saturn contains 96.3% molecular hydrogen and 3.25% helium by volume. The planet's most famous feature is its prominent ring system, which is composed mostly of ice particles with a smaller amount of rocky debris and dust. "
       }
       PlanetImg={saturnLogo}
       PlanetWikipedia={undefined}
@@ -16,9 +16,9 @@ const Saturn = () => {
       Average={"-138 C"}
       className="absolute w-56 left-[400px] top-[300px]"
       link="/saturn-interval-structure"
-      surfaceLink="/saturn-surface-geology"
+      overViewLink="/saturn"
     />
   );
 };
 
-export default Saturn;
+export default SaturnLast;

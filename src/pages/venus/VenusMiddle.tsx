@@ -6,7 +6,7 @@ const VenusMiddle = () => {
     <MainPlanets
       PlanetName={"VENUS"}
       PlanetAbout={
-        "Venus is the second planet from the Sun. It is named after the Roman goddess of love and beauty. As the brightest natural object in Earth's night sky after the Moon, Venus can cast shadows and can be, on rare occasions, visible to the naked eye in broad daylight."
+        "The similarity in size and density between Venus and Earth suggests they share a similar internal structure: a core, mantle, and crust. Like that of Earth, Venusian core is most likely at least partially liquid because the two planets have been cooling at about the same rate."
       }
       PlanetImg={venusLogo}
       PlanetWikipedia={212}

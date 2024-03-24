@@ -1,12 +1,12 @@
 import MainPlanets from "../mainPlanets/MainPlanets";
-import saturnLogo from '../../components/Images/7.svg'
+import saturnLogo from '../../components/Images/uranus/uranusLast.png'
 
-const Uranus = () => {
+const UranusLast = () => {
   return (
     <MainPlanets
       PlanetName={"URANUS"}
       PlanetAbout={
-        "Uranus is the seventh planet from the Sun. Its name is a reference to the Greek god of the sky, Uranus according to Greek mythology, was the great-grandfather of Ares. It has the third-largest planetary radius and fourth-largest planetary mass in the Solar System."
+        "The composition of Uranus's atmosphere is different from its bulk, consisting mainly of molecular hydrogen and helium. The helium molar fraction, i.e. the number of helium atoms per molecule of gas, is 0.15±0.03 in the upper troposphere."
       }
       PlanetImg={saturnLogo}
       PlanetWikipedia={undefined}
@@ -16,9 +16,9 @@ const Uranus = () => {
       Average={"-195 C"}
       className="absolute w-56 left-[400px] top-[300px]"
       link="/uranus-interval-structure"
-      surfaceLink="/uranus-surface-geology"
+      overViewLink="/uranus"
     />
   );
 };
 
-export default Uranus;
+export default UranusLast;
