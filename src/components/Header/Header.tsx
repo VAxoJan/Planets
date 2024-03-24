@@ -1,16 +1,17 @@
 import { Link } from "react-router-dom";
 import mobileLogo from '../Images/mobile.svg'
-import { useEffect } from "react";
 
 const Header: any = () => {
-  useEffect(() => {
-    alert("Mobile Version Coming Soon!!!")
-  }, [])
+
   return (
     <div className="flex h-[85px] bg-[#070724] text-white m-auto border-y">
       <div className="flex px-[32px] items-center w-auto gap-2">
-        <h1 className="font-antonio text-[28px]">THE</h1>
-        <h1 className="font-antonio text-[28px]">PLANETS</h1>
+        <h1 className="font-antonio text-[28px] cursor-pointer">
+          <Link to="https://planets-psi.vercel.app/">THE</Link>
+          </h1>
+        <h1 className="font-antonio text-[28px] cursor-pointer">
+          <Link to="https://planets-psi.vercel.app/">PLANETS</Link>
+          </h1>
       </div>
       <header className="hidden list-none gap-14 w-full justify-end px-10 items-center font-headerFont xl:flex">
         <div className="h-full flex items-center border-t-2 border-transparent hover:border-[#419EBB] transition duration-250 ease-in-out">

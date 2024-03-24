@@ -269,6 +269,15 @@ const router = createBrowserRouter([
     ),
   },
   {
+    path: "https://planets-psi.vercel.app",
+    element: (
+      <>
+        <Header />
+        <Mercury PlanetName={""} PlanetAbout={""} PlanetImg={undefined} PlanetWikipedia={undefined} RotationTime={""} RevolutionTIme={""} Radius={""} Average={""} />
+      </>
+    ),
+  },
+  {
     path: "*",
     element: (
       <>
