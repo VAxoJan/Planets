@@ -6,3 +6,17 @@ export {default as Neptune} from './neptune/Neptune'
 export {default as Mercury} from './mainPlanets/MainPlanets'
 export {default as Venus} from './venus/Venus'
 export {default as Earth} from './earth/Earth';
+export {default as  VenusMiddle} from "./venus/VenusMiddle";
+export {default as  VenusLast} from "./venus/VenusLast";
+export {default as  EarthMiddle} from "./earth/EarthMiddle";
+export {default as  EarthLast} from "./earth/EarthLast";
+export {default as  MarsMiddle} from "./mars/MarsMiddle";
+export {default as  MarsLast}from "./mars/MarsLast";
+export {default as  JupiterLast} from "./jupiter/JupiterLats";
+export {default as  JupiterMiddle} from "./jupiter/JupiterMiddle";
+export {default as  SaturnMiddle} from "./saturn/SaturnMiddle";
+export {default as  SaturnLast} from "./saturn/SaturnLast";
+export {default as  UranusLast} from "./uranus/UranusLast";
+export {default as  UranusMiddle} from "./uranus/UranusMiddle";
+export {default as  NeptuneMiddle} from "./neptune/NeptuneMiddle";
+export {default as  NeptuneLast} from "./neptune/NeptuneLast";

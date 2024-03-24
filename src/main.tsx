@@ -2,24 +2,24 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Header from "./components/Header/Header";
-import { Earth, Jupiter, Mars, Mercury, Neptune, Saturn, Uranus, Venus } from "./pages/local";
+import { Earth, EarthLast, EarthMiddle, Jupiter, JupiterLast, JupiterMiddle, Mars, MarsLast, MarsMiddle, Mercury, Neptune, NeptuneLast, NeptuneMiddle, Saturn, SaturnLast, SaturnMiddle, Uranus, UranusLast, UranusMiddle, Venus, VenusLast, VenusMiddle } from "./pages/local";
 import mercuryLogo from './components/Images/mercury.svg'
 import mercuryMiddle from './components/Images/mercury/mercuryMiddle.png';
 import mercuryLst from './components/Images/mercury/mercuryLast.png';
-import VenusMiddle from "./pages/venus/VenusMiddle";
-import VenusLast from "./pages/venus/VenusLast";
-import EarthMiddle from "./pages/earth/EarthMiddle";
-import EarthLast from "./pages/earth/EarthLast";
-import MarsMiddle from "./pages/mars/MarsMiddle";
-import MarsLast from "./pages/mars/MarsLast";
-import JupiterLast from "./pages/jupiter/JupiterLats";
-import JupiterMiddle from "./pages/jupiter/JupiterMiddle";
-import SaturnMiddle from "./pages/saturn/SaturnMiddle";
-import SaturnLast from "./pages/saturn/SaturnLast";
-import UranusLast from "./pages/uranus/UranusLast";
-import UranusMiddle from "./pages/uranus/UranusMiddle";
-import NeptuneMiddle from "./pages/neptune/NeptuneMiddle";
-import NeptuneLast from "./pages/neptune/NeptuneLast";
+// import VenusMiddle from "./pages/venus/VenusMiddle";
+// import VenusLast from "./pages/venus/VenusLast";
+// import EarthMiddle from "./pages/earth/EarthMiddle";
+// import EarthLast from "./pages/earth/EarthLast";
+// import MarsMiddle from "./pages/mars/MarsMiddle";
+// import MarsLast from "./pages/mars/MarsLast";
+// import JupiterLast from "./pages/jupiter/JupiterLats";
+// import JupiterMiddle from "./pages/jupiter/JupiterMiddle";
+// import SaturnMiddle from "./pages/saturn/SaturnMiddle";
+// import SaturnLast from "./pages/saturn/SaturnLast";
+// import UranusLast from "./pages/uranus/UranusLast";
+// import UranusMiddle from "./pages/uranus/UranusMiddle";
+// import NeptuneMiddle from "./pages/neptune/NeptuneMiddle";
+// import NeptuneLast from "./pages/neptune/NeptuneLast";
 
 
 const router = createBrowserRouter([
