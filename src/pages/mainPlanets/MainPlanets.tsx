@@ -33,7 +33,7 @@ const Mercury: React.FC<planets> = ({
 
   return (
     <>
-      <div className="flex w-[58%] h-fit m-auto gap-4 my-[70px]">
+      <div className="hidden w-[58%] h-fit m-auto gap-4 my-[70px] xl:flex">
         <div className="flex justify-between">
           <div className="flex justify-center">
             <img className={className} src={PlanetImg} />
@@ -77,7 +77,11 @@ const Mercury: React.FC<planets> = ({
           </div>
         </div>
       </div>
-      <div className="flex text-white w-full justify-center gap-x-7">
+      <div>
+        <h1 className="flex text-white text-xl font-antonio justify-center my-10 xl:hidden">Mobile Version Coming Soon</h1>
+        <img className="flex text-white xl:hidden justify-center my-[50%] m-auto w-[40%]" src="https://media1.tenor.com/m/XasjKGMk_wAAAAAC/load-loading.gif" />
+      </div>
+      <div className="hidden text-white w-full justify-center gap-x-7 xl:flex">
         <div className="border w-[255px] h-32">
           <p className="text-xs font-headerFont opacity-[50%] py-5 px-6">
             ROTATION TIME
